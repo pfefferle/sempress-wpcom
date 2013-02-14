@@ -64,12 +64,38 @@ function sempress_setup() {
   add_theme_support( 'post-thumbnails' );
   set_post_thumbnail_size( 600, 9999 ); // Unlimited height, soft crop
 
+/**
+ * Add theme support for Infinite Scroll.
+ * See: http://jetpack.me/support/infinite-scroll/
+ */
+	add_theme_support( 'infinite-scroll', array(
+	'type'           => 'scroll',
+	'container' => 'content',
+	'footer'    => 'page',
+	) );
+
   /**
    * This theme uses wp_nav_menu() in one location.
    */
   register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'sempress' ),
   ) );
+
+  /**
+   * Custom background
+   */
+$args = array(
+	'default-color' => 'f0f0f0',
+	'default-image' => get_template_directory_uri() . '/img/noise.png',
+);
+add_theme_support( 'custom-background', $args );
+	
+	/**
+	 * WordPress.com-specific functions and definitions
+	*/
+	require( get_template_directory() . '/inc/wpcom.php' );
+
+
 
   /**
    * Add support for the Aside and Gallery Post Formats
@@ -86,15 +112,6 @@ endif; // sempress_setup
 add_action( 'after_setup_theme', 'sempress_setup' );
 
 /**
- * Set a default theme color array for WP.com.
- */
-$themecolors = array(
-  'bg' => 'ffffff',
-  'border' => 'eeeeee',
-  'text' => '444444',
-);
-
-/**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  */
 function sempress_page_menu_args( $args ) {
@@ -102,7 +119,10 @@ function sempress_page_menu_args( $args ) {
   return $args;
 }
 add_filter( 'wp_page_menu_args', 'sempress_page_menu_args' );
-
+/**
+ * Implement the Custom Header feature
+ */
+require( get_template_directory() . '/inc/custom-header.php' );
 /**
  * Register widgetized area and update sidebar with default widgets
  */
@@ -143,6 +163,16 @@ function sempress_enqueue_scripts() {
 		 ( false === strpos( $_SERVER['HTTP_USER_AGENT'], 'MSIE 9' ) ) ) {
     
     wp_enqueue_script('html5', get_template_directory_uri() . '/js/html5.js', false, '3.6');
+	}
+	
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+	
+	wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), '20120206', true );
+
+	if ( is_singular() && wp_attachment_is_image() ) {
+		wp_enqueue_script( 'keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
 }
 endif;
