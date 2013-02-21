@@ -2,7 +2,7 @@
  * Handles toggling the main navigation menu for small screens.
  */
 jQuery( document ).ready( function( $ ) {
-	var $masthead = $( '#branding' ),
+	var $masthead = $( '#masthead' ),
 	    timeout = false;
 
 	$.fn.smallMenu = function() {
@@ -16,7 +16,7 @@ jQuery( document ).ready( function( $ ) {
 	};
 
 	// Check viewport width on first load.
-	if ( $( window ).width() < 479 )
+	if ( $( window ).width() < 600 )
 		$.fn.smallMenu();
 
 	// Check viewport width when user resizes the browser window.
@@ -27,7 +27,7 @@ jQuery( document ).ready( function( $ ) {
 			clearTimeout( timeout );
 
 		timeout = setTimeout( function() {
-			if ( browserWidth < 479 ) {
+			if ( browserWidth < 600 ) {
 				$.fn.smallMenu();
 			} else {
 				$masthead.find( '.site-navigation' ).removeClass( 'main-small-navigation' ).addClass( 'main-navigation' );

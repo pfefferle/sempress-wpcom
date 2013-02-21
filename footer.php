@@ -4,20 +4,22 @@
  *
  * Contains the closing of the id=main div and all content after
  *
- * @package SemPress
- * @since SemPress 1.0.0
+ * @package sempress
+ * @since sempress 1.0
  */
 ?>
 
-  </div><!-- #main -->
+	</div><!-- #main .site-main -->
 
-  <footer id="colophon" role="contentinfo">
-    <div id="site-generator">
-      <?php do_action( 'sempress_credits' ); ?>
-      <?php printf( __( '%1$s. Theme: %2$s.', 'sempress' ), '<a href="http://wordpress.org/" rel="generator">Proudly powered by WordPress</a>', '<a href="http://notizblog.org/projects/sempress/">SemPress</a>'); ?>
-    </div>
-  </footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<?php do_action( 'sempress_credits' ); ?>
+			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A semantic Personal Publishing Platform', 'sempress' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'sempress' ), 'WordPress' ); ?></a>
+			<span class="sep"> | </span>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'sempress' ), 'SemPress', '<a href="http://notizblog.org/projects/sempress/" rel="designer">Matthias Pfefferle</a>' ); ?>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon .site-footer -->
+</div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>
 

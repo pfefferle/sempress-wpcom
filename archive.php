@@ -2,79 +2,96 @@
 /**
  * The template for displaying Archive pages.
  *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package SemPress
- * @since SemPress 1.0.0
+ * @package sempress
+ * @since sempress 1.0
  */
 
 get_header(); ?>
 
-    <section id="primary">
-      <div id="content" role="main">
+		<section id="primary" class="content-area">
+			<div id="content" class="site-content" role="main">
 
-      <?php if ( have_posts() ) : ?>
+			<?php if ( have_posts() ) : ?>
 
-        <header class="page-header">
-          <h1 class="page-title">
-            <?php
-              if ( is_date() ) :
-                $link = "";
-                if ( is_day() )
-                  $link .= ' <a href="'.get_day_link( get_the_time('Y'), get_the_time('m'), get_the_time('d') ).'">'.get_the_time('d').'.</a>';
-                if ( is_month() || is_day() )
-                  $link .= ' <a href="'.get_month_link( get_the_time('Y'), get_the_time('m') ).'">'.get_the_date( 'F' ).'</a>';
-                if ( is_year() || is_month() || is_day() )
-                  $link .= ' <a href="'.get_year_link( get_the_time('Y') ).'">'.get_the_time('Y').'</a>';
-                printf( __( 'Archives: %s', 'sempress' ), '<span itemprop="breadcrumb">' . $link . '</span>' );
-              elseif ( get_post_format() ) :
-                printf( __( 'Archives: %s', 'sempress' ), '<span>' . get_post_format_string( get_post_format() ) . '</span>' );
-              else :
-                _e( 'Archives', 'sempress' );
-              endif;
-            ?>
-          </h1>
-        </header>
+				<header class="page-header">
+					<h1 class="page-title">
+						<?php
+							if ( is_category() ) {
+								printf( __( 'Category Archives: %s', 'sempress' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 
-        <?php rewind_posts(); ?>
+							} elseif ( is_tag() ) {
+								printf( __( 'Tag Archives: %s', 'sempress' ), '<span>' . single_tag_title( '', false ) . '</span>' );
 
-        <?php sempress_content_nav( 'nav-above' ); ?>
+							} elseif ( is_author() ) {
+								/* Queue the first post, that way we know
+								 * what author we're dealing with (if that is the case).
+								*/
+								the_post();
+								printf( __( 'Author Archives: %s', 'sempress' ), '<span class="vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( "ID" ) ) ) . '" title="' . esc_attr( get_the_author() ) . '" rel="me">' . get_the_author() . '</a></span>' );
+								/* Since we called the_post() above, we need to
+								 * rewind the loop back to the beginning that way
+								 * we can run the loop properly, in full.
+								 */
+								rewind_posts();
 
-        <?php /* Start the Loop */ ?>
-        <?php while ( have_posts() ) : the_post(); ?>
+							} elseif ( is_day() ) {
+								printf( __( 'Daily Archives: %s', 'sempress' ), '<span>' . get_the_date() . '</span>' );
 
-          <?php
-            /* Include the Post-Format-specific template for the content.
-             * If you want to overload this in a child theme then include a file
-             * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-             */
-            get_template_part( 'content', get_post_format() );
-          ?>
+							} elseif ( is_month() ) {
+								printf( __( 'Monthly Archives: %s', 'sempress' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
 
-        <?php endwhile; ?>
+							} elseif ( is_year() ) {
+								printf( __( 'Yearly Archives: %s', 'sempress' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
 
-        <?php sempress_content_nav( 'nav-below' ); ?>
+							} else {
+								_e( 'Archives', 'sempress' );
 
-      <?php else : ?>
+							}
+						?>
+					</h1>
+					<?php
+						if ( is_category() ) {
+							// show an optional category description
+							$category_description = category_description();
+							if ( ! empty( $category_description ) )
+								echo apply_filters( 'category_archive_meta', '<div class="taxonomy-description">' . $category_description . '</div>' );
 
-        <article id="post-0" class="post no-results not-found">
-          <header class="entry-header">
-            <h1 class="entry-title p-entry-title"><?php _e( 'Nothing Found', 'sempress' ); ?></h1>
-          </header><!-- .entry-header -->
+						} elseif ( is_tag() ) {
+							// show an optional tag description
+							$tag_description = tag_description();
+							if ( ! empty( $tag_description ) )
+								echo apply_filters( 'tag_archive_meta', '<div class="taxonomy-description">' . $tag_description . '</div>' );
+						}
+					?>
+				</header><!-- .page-header -->
 
-          <div class="entry-content e-entry-content">
-            <p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'sempress' ); ?></p>
-            <?php get_search_form(); ?>
-          </div><!-- .entry-content -->
-        </article><!-- #post-0 -->
+				<?php sempress_content_nav( 'nav-above' ); ?>
 
-      <?php endif; ?>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-      </div><!-- #content -->
-    </section><!-- #primary -->
+					<?php
+						/* Include the Post-Format-specific template for the content.
+						 * If you want to overload this in a child theme then include a file
+						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+						 */
+						get_template_part( 'content', get_post_format() );
+					?>
+
+				<?php endwhile; ?>
+
+				<?php sempress_content_nav( 'nav-below' ); ?>
+
+			<?php else : ?>
+
+				<?php get_template_part( 'no-results', 'archive' ); ?>
+
+			<?php endif; ?>
+
+			</div><!-- #content .site-content -->
+		</section><!-- #primary .content-area -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
