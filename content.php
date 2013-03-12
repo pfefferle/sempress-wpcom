@@ -22,7 +22,7 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php if ( has_post_thumbnail()) : ?>
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
 			<div class="entry-thumbnail">
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'sempress' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_post_thumbnail( 'sempress-blog', array( 'class' => 'sempress-blog-thumbnail', 'alt' => get_the_title(), 'title' => get_the_title() ) ); ?></a>
 			</div>

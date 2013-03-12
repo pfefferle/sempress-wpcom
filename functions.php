@@ -12,7 +12,7 @@
  * @since sempress 1.0
  */
 if ( ! isset( $content_width ) )
-	$content_width = 660; /* pixels */
+	$content_width = 594; /* pixels */
 
 /*
  * Load Jetpack compatibility file.

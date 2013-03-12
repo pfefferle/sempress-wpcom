@@ -116,4 +116,5 @@ get_header();
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area .image-attachment -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

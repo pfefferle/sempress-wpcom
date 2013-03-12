@@ -15,7 +15,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php if ( has_post_thumbnail()) : ?>
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
 			<div class="entry-thumbnail">
 			<?php the_post_thumbnail( 'sempress-blog', array( 'class' => 'sempress-blog-thumbnail', 'alt' => get_the_title(), 'title' => get_the_title() ) ); ?>
 			</div>

@@ -22,8 +22,8 @@
 function sempress_custom_header_setup() {
 	$args = array(
 		'default-image'          => '',
-		'default-text-color'     => '',
-		'header-text'            => false,
+		'default-text-color'     => '333333',
+		'header-text'            => true,
 		'width'                  => 950,
 		'height'                 => 200,
 		'flex-height'            => true,
@@ -132,10 +132,26 @@ function sempress_admin_header_style() {
 	#desc {
 	}
 	#headimg h1 {
+		clear: both;
+		font-weight: 200;
+		color: #444;
+		line-height:1.8;
+		font-size: 4em;
+		letter-spacing: -2px;
+		margin: 0;
 	}
 	#headimg h1 a {
+		color: #444;
+		text-decoration: none;
 	}
 	#desc {
+		color: #777;
+		font-size: 1.7em;
+		height: auto;
+		line-height: 120%;
+		margin: 0 0 1em;
+		width: 100%;
+		font-weight: 100;
 	}
 	#headimg img {
 		width:100%;
