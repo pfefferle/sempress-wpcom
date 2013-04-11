@@ -917,6 +917,7 @@ footer.entry-meta {
 	-ms-border-radius: 0 0 3px 3px;
 	-khtml-border-radius: 0 0 3px 3px;
 	border-radius: 0 0 3px 3px;
+	line-height:24px;
 }
 .entry-content,
 .entry-summary {
@@ -924,6 +925,7 @@ footer.entry-meta {
 	font-size: 1em;
 	line-height: 27px;	
 	margin-bottom: 34px;
+	padding-bottom:34px;
 }
 .entry-content,
 .entry-title,
@@ -1173,8 +1175,8 @@ img.size-full,
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
 }
-.site-content .gallery {
-	margin-bottom: 1.5em;
+#content .tiled-gallery {
+	margin-bottom: 34px; /* 34px minus the margin bottom for .gallery-item */
 }
 .gallery-caption {
 }
@@ -1497,6 +1499,14 @@ td.recentcommentsavatartop {
 .widget_recent_comments td.recentcommentstextend {
 	padding: 1em 0.615em 1.1em !important;
     vertical-align: top;
+}
+
+
+/* =Jetpack: Sharing
+----------------------------------------------- */
+
+.entry-content .sharedaddy:last-child {
+	margin-bottom: 34px;
 }
 
 /* =Infinity Styles
