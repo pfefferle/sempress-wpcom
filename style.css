@@ -1505,9 +1505,10 @@ td.recentcommentsavatartop {
 /* =Jetpack: Sharing
 ----------------------------------------------- */
 
-.entry-content .sharedaddy:last-child {
+.single .entry-content .sharedaddy:last-child, .page .entry-content .sharedaddy:last-child {
 	margin-bottom: 34px;
 }
+
 
 /* =Infinity Styles
 -------------------------------------------------------------- */
