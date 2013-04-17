@@ -84,6 +84,21 @@ body {
 	right: -70px;
 	top: 25px;
 }
+
+
+/* =Footer
+----------------------------------------------- */
+
+#colophon{
+	clear: both;
+	display: block;
+	width: 100%;
+	padding: 2em 0;
+	font-size: 12px;
+	text-align: right;
+}
+
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (max-width: 800px) {
 #page{
