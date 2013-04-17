@@ -729,6 +729,7 @@ a:hover{
 	clear:both;
 }
 
+
 /* =Menu
 ----------------------------------------------- */
 
@@ -841,7 +842,9 @@ a:hover{
     background: #464646;
     text-indent:25px;
 }
-
+.demosite-activate-wrap .main-small-navigation{
+	top: 80px;
+	}
 .main-small-navigation a {
 	color:#fff;
 	text-shadow:none;
@@ -880,6 +883,7 @@ a:hover{
 	border-bottom:0;
 }
 
+
 /* =Content
 ----------------------------------------------- */
 
@@ -899,8 +903,6 @@ article.attachment {
 	border: 1px solid #ccc;
 	padding-top: 20px;
 	text-shadow: none;
-}
-.sticky {
 }
 article, aside {
 	display: block;
@@ -1229,6 +1231,7 @@ object {
 	width: 50%;
 }
 
+
 /* =Comments
 ----------------------------------------------- */
 
@@ -1304,6 +1307,7 @@ ol.commentlist {
 #comments {
 	padding-top: 30px;
 }
+
 
 /* =Widgets
 ----------------------------------------------- */
@@ -1491,6 +1495,7 @@ ol.commentlist {
 }
 
 /* Recent Comments Widget */
+
 td.recentcommentsavatarend,
 td.recentcommentsavatartop {
 	padding: 0.385em !important;
@@ -1499,6 +1504,7 @@ td.recentcommentsavatartop {
 .widget_recent_comments td.recentcommentstextend {
 	padding: 1em 0.615em 1.1em !important;
     vertical-align: top;
+    border-bottom:0!important;
 }
 
 
@@ -1727,9 +1733,9 @@ td.recentcommentsavatartop {
 	}
 }
 
+
 /* =Footer
 ----------------------------------------------- */
-
 
 #colophon{
 	clear: both;
@@ -1790,9 +1796,6 @@ td.recentcommentsavatartop {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (max-width: 767px) {
-body {
-
-}
 #page{
 	position:inherit;
 	padding:0 70px;
@@ -1851,10 +1854,28 @@ footer.entry-meta {
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (max-width: 479px) {
-#page {
-
-}
 .entry-title a {
 	font-size: 0.8em;
+}
+}
+
+/* print styles */
+@media print {
+article.page,
+article.post,
+article.attachment,
+img {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border:0;
+}
+.main-navigation a,
+.main-navigation a:visited,
+.site-description,
+.site-title a,
+.site-info a {
+	text-shadow:none;
+	color:#000;
 }
 }

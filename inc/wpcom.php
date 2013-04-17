@@ -14,5 +14,7 @@ if ( ! isset ( $themecolors ) ) {
 	'bg' => 'ffffff',
 	'border' => 'eeeeee',
 	'text' => '444444',
+	'link'   => '21759B',
+	'url'    => '21759B',
 );
 }

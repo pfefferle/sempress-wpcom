@@ -41,6 +41,7 @@ function sempress_setup() {
 	 */
 	require( get_template_directory() . '/inc/extras.php' );
 
+
 	/**
 	 * Customizer additions
 	 */
@@ -100,7 +101,7 @@ add_action( 'after_setup_theme', 'sempress_setup' );
 function sempress_register_custom_background() {
 	$args = array(
 		'default-color' => 'f0f0f0',
-		'default-image' => get_template_directory_uri() . '/img/noise.png',
+		'default-image' => '',
 	);
 
 	$args = apply_filters( 'sempress_custom_background_args', $args );
