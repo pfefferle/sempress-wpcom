@@ -829,6 +829,21 @@ a:hover{
 }
 .main-small-navigation{
     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: none;
+    border-radius: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #464646;
+    text-indent:25px;
+}
+.admin-bar .main-small-navigation{
+    position: absolute;
     top: 40px;
     left: 0;
     z-index: 1;
@@ -1741,7 +1756,7 @@ td.recentcommentsavatartop {
 	clear: both;
 	display: block;
 	width: 100%;
-	padding:0 0 2em 0;
+	padding:2em 0;
 	font-size: 12px;
 	text-align: left;
 }
@@ -1804,6 +1819,21 @@ td.recentcommentsavatartop {
 	line-height:1.4;
 }
 .main-small-navigation{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    border: none;
+    border-radius: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #464646;
+    text-indent:25px;
+}
+.admin-bar .main-small-navigation{
     position: absolute;
     top: 40px;
     left: 0;
