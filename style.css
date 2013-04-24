@@ -1833,7 +1833,7 @@ td.recentcommentsavatartop {
     background: #464646;
     text-indent:25px;
 }
-.admin-bar .main-small-navigation{
+.admin-bar .main-small-navigation, .demo-site .main-small-navigation{
     position: absolute;
     top: 40px;
     left: 0;
