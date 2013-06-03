@@ -19,8 +19,8 @@
 			<div class="entry-thumbnail">
 			<?php the_post_thumbnail( 'sempress-blog', array( 'class' => 'sempress-blog-thumbnail', 'alt' => get_the_title(), 'title' => get_the_title() ) ); ?>
 			</div>
-		<?php endif; ?>	
-	
+		<?php endif; ?>
+
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'sempress' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->

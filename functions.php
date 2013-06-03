@@ -46,7 +46,7 @@ function sempress_setup() {
 	 * Customizer additions
 	 */
 	require( get_template_directory() . '/inc/customizer.php' );
-	
+
 	/**
 	 * WordPress.com-specific functions and definitions
 	*/

@@ -776,7 +776,7 @@ a:hover{
 	left: 0;
 	z-index: 99999;
 	box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2);
-	border-radius: 4px; 
+	border-radius: 4px;
 }
 .main-navigation ul ul ul {
 	left: 100%;
@@ -938,7 +938,7 @@ footer.entry-meta {
 .entry-summary {
 	color: #3f3f3f;
 	font-size: 1em;
-	line-height: 27px;	
+	line-height: 27px;
 	margin-bottom: 34px;
 	padding-bottom:34px;
 }
@@ -996,7 +996,7 @@ footer.entry-meta {
 	content: ".";
 	display: block;
 	clear: both;
-	visibility: hidden;	
+	visibility: hidden;
 	line-height: 0;
 	height: 0;
 }
