@@ -41,7 +41,6 @@ function sempress_setup() {
 	 */
 	require( get_template_directory() . '/inc/extras.php' );
 
-
 	/**
 	 * Customizer additions
 	 */
@@ -95,25 +94,13 @@ add_action( 'after_setup_theme', 'sempress_setup' );
 /**
  * Setup the WordPress core custom background feature.
  *
- *
  * Hooks into the after_setup_theme action.
  */
 function sempress_register_custom_background() {
-	$args = array(
+	add_theme_support( 'custom-background', apply_filters( 'sempress_custom_background_args', array(
 		'default-color' => 'f0f0f0',
 		'default-image' => '',
-	);
-
-	$args = apply_filters( 'sempress_custom_background_args', $args );
-
-	if ( function_exists( 'wp_get_theme' ) ) {
-		add_theme_support( 'custom-background', $args );
-	} else {
-		define( 'BACKGROUND_COLOR', $args['default-color'] );
-		if ( ! empty( $args['default-image'] ) )
-			define( 'BACKGROUND_IMAGE', $args['default-image'] );
-		add_custom_background();
-	}
+	) ) );
 }
 add_action( 'after_setup_theme', 'sempress_register_custom_background' );
 
@@ -124,12 +111,12 @@ add_action( 'after_setup_theme', 'sempress_register_custom_background' );
  */
 function sempress_widgets_init() {
 	register_sidebar( array(
-		'name' => __( 'Sidebar', 'sempress' ),
-		'id' => 'sidebar-1',
+		'name'          => __( 'Sidebar', 'sempress' ),
+		'id'            => 'sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h1 class="widget-title">',
-		'after_title' => '</h1>',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
 	) );
 }
 add_action( 'widgets_init', 'sempress_widgets_init' );
