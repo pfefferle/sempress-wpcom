@@ -1145,9 +1145,18 @@ footer.entry-meta {
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 	border-radius: 3px 3px 3px 3px;
 }
-.entry-thumbnail img{margin-bottom:14px;}
-#secondary .textwidget img{margin:14px auto; width:95%; display:block;}
-#secondary .textwidget img.wp-smiley{width:auto; display:inline-block; margin:0;}
+.entry-thumbnail img {
+	margin-bottom:14px;
+}
+#secondary .textwidget img {
+	margin: 14px auto;
+	display: inline-block;
+}
+#secondary .textwidget img.wp-smiley {
+	width: auto;
+	display: inline-block;
+	margin: 0;
+}
 .site-header img,
 .entry-content img,
 .comment-content img[height],
