@@ -75,7 +75,7 @@ function sempress_comment( $comment, $args, $depth ) {
 		case 'trackback' :
 	?>
 	<li class="post pingback">
-		<p><?php _e( 'Pingback:', 'sempress' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'sempress' ), ' ' ); ?></p>
+		<p><?php _e( 'Pingback:', 'sempress' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'sempress' ), ' ' ); ?></p>
 	<?php
 			break;
 		default :
@@ -98,7 +98,7 @@ function sempress_comment( $comment, $args, $depth ) {
 						/* translators: 1: date, 2: time */
 						printf( __( '%1$s at %2$s', 'sempress' ), get_comment_date(), get_comment_time() ); ?>
 					</time></a>
-					<?php edit_comment_link( __( '(Edit)', 'sempress' ), ' ' );
+					<?php edit_comment_link( __( 'Edit', 'sempress' ), ' ' );
 					?>
 				</div><!-- .comment-meta .commentmetadata -->
 			</footer>
