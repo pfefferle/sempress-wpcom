@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-07 19:17:32+0000\n"
+"PO-Revision-Date: 2014-07-06 03:58:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,7 @@ msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for W
 msgstr ""
 
 msgid "Full-Width Page"
-msgstr ""
+msgstr "Page pleine largeur"
 
 #: sidebar.php:25
 msgid "Meta"
