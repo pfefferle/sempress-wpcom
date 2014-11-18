@@ -10,9 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: SemPress\n"
 
+#. Description of the plugin/theme
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 msgstr ""
 
+#. Template Name of the plugin/theme
 msgid "Full-Width Page"
 msgstr ""
 
@@ -56,6 +58,7 @@ msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-dat
 msgid "View all posts by %s"
 msgstr "%s tərəfindən yazılmış bütün yazılara bax"
 
+#. translators: 1: date, 2: time
 #: inc/template-tags.php:99
 msgid "%1$s at %2$s"
 msgstr "%1$s tarixində, saat %2$s"
@@ -198,6 +201,7 @@ msgstr "<a href=\"%3$s\" title=\" %4$s üçün daimi bağlantı\" rel=\"bookmark
 msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Bu yazı %2$s ilə etiketləndi. <a href=\"%3$s\" title=\"%4$s üçün daimi bağlantı\" rel=\"bookmark\">Daimi bağlantını</a> seçilmişlərə əlavə edin."
 
+#. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
 msgid ", "
 msgstr ","
@@ -262,6 +266,7 @@ msgstr "%s Etiket Arxivləri: "
 msgid "Category Archives: %s"
 msgstr "Kateqoriya Arxivləri: %s"
 
+#. translators: %1$s: smiley
 #: 404.php:35
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Aylıq arxivlərə baxmağı yoxlayın. %1$s"

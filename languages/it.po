@@ -10,9 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: SemPress\n"
 
+#. Description of the plugin/theme
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 msgstr ""
 
+#. Template Name of the plugin/theme
 msgid "Full-Width Page"
 msgstr ""
 
@@ -56,6 +58,7 @@ msgstr ""
 msgid "View all posts by %s"
 msgstr "Vedi tutti gli articoli di %s"
 
+#. translators: 1: date, 2: time
 #: inc/template-tags.php:99
 msgid "%1$s at %2$s"
 msgstr "%1$s alle %2$s"
@@ -198,6 +201,7 @@ msgstr "Contrassegna il <a href=\"%3$s\" title=\"Permalink a %4$s\" rel=\"bookma
 msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Questa voce è stata pubblicata con tag %2$s. Aggiungi il <a href=\"%3$s\" title=\"Permalink a %4$s\" rel=\"bookmark\">permalink</a> ai segnalibri."
 
+#. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
 msgid ", "
 msgstr ", "
@@ -262,6 +266,7 @@ msgstr "Archivi tag: %s"
 msgid "Category Archives: %s"
 msgstr "Archivi categoria: %s"
 
+#. translators: %1$s: smiley
 #: 404.php:35
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Provare a consultare gli archivi mensili. %1$s"

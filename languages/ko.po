@@ -10,9 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: SemPress\n"
 
+#. Description of the plugin/theme
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 msgstr ""
 
+#. Template Name of the plugin/theme
 msgid "Full-Width Page"
 msgstr ""
 
@@ -56,6 +58,7 @@ msgstr ""
 msgid "View all posts by %s"
 msgstr "%s의 모든 글 보기"
 
+#. translators: 1: date, 2: time
 #: inc/template-tags.php:99
 msgid "%1$s at %2$s"
 msgstr "%1$s (%2$s)"
@@ -198,6 +201,7 @@ msgstr "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">고유주�
 msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "이 엔트리는 %2$s 태그가 지정되었습니다. <a href=\"%3$s\" title=\"%4$s의 퍼머링크\" rel=\"bookmark\">퍼머링크</a>를 북마크하세요."
 
+#. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
 msgid ", "
 msgstr ", "
@@ -261,6 +265,7 @@ msgstr "태그 보관물: %s"
 msgid "Category Archives: %s"
 msgstr "카테고리 보관물: %s"
 
+#. translators: %1$s: smiley
 #: 404.php:35
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "월간 보관물을 확인해보세요. %1$s"
