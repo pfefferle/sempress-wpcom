@@ -802,7 +802,8 @@ a:hover{
 .main-navigation ul ul li.current_page_item a {
 	color: #444;
 }
-.main-navigation ul li:hover > ul {
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
 	display: block;
 }
 
