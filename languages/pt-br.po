@@ -11,10 +11,12 @@ msgstr ""
 "Project-Id-Version: SemPress\n"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/sempress/style.css
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 msgstr "SemPress é um tema responsivo perfeito para blogs pessoais. Reconstruído para WordPress.com."
 
 #. Template Name of the plugin/theme
+#: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
 msgstr "Página de largura total"
 
