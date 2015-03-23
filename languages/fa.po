@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-06 14:01:41+0000\n"
+"PO-Revision-Date: 2015-03-22 06:10:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +13,7 @@ msgstr ""
 #. Description of the plugin/theme
 #: wp-content/themes/pub/sempress/style.css
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
+msgstr "SemPress یک پوستهٔ پاسخگو و عالی برای وب‌نوشت‌های شخصی است. بازسازی شده برای WordPress.com."
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
