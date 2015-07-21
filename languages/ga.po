@@ -10,16 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Imshonraí"
@@ -103,14 +93,6 @@ msgstr "Treoraíocht alt"
 msgid "Page %s"
 msgstr "Leathanach %s"
 
-#: image.php:106
-msgid "Both comments and trackbacks are currently closed."
-msgstr ""
-
-#: image.php:104
-msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr ""
-
 #: image.php:102
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "Tá na freagraí dúnta, ach d'fhéadfá blagthásc a dhéanamh: <a class=\"trackback-link\" href=\"%s\" title=\"URL blagtháisc don alt\" rel=\"trackback\">URL blagtháisc</a>."
@@ -155,17 +137,9 @@ msgstr "Téama: %1$s le %2$s."
 msgid "Proudly powered by %s"
 msgstr "Le cumhacht %s"
 
-#: footer.php:18
-msgid "A semantic Personal Publishing Platform"
-msgstr ""
-
 #: content.php:62
 msgid "% Comments"
 msgstr "Freagraí: %"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"

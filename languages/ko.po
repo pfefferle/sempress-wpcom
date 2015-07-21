@@ -10,16 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "그 밖의 기능"
@@ -51,10 +41,6 @@ msgstr "첫 번째 글을 게시할 준비가 되셨나요? <a href=\"%1$s\">여
 #: no-results.php:14
 msgid "Nothing Found"
 msgstr "찾지 못함"
-
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
 
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
@@ -123,10 +109,6 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"댓글 달기\">댓�
 msgid "Next &rarr;"
 msgstr "다음 &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; 이전"
@@ -162,10 +144,6 @@ msgstr "의미론적 개인 출판 플랫폼"
 #: content.php:62
 msgid "% Comments"
 msgstr "댓글 %개"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"

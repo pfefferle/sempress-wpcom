@@ -10,16 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"
@@ -51,10 +41,6 @@ msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a
 #: no-results.php:14
 msgid "Nothing Found"
 msgstr "Niets gevonden"
-
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
 
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
@@ -162,10 +148,6 @@ msgstr "Een semantisch persoonlijk publicatieplatform"
 #: content.php:62
 msgid "% Comments"
 msgstr "% reacties"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"

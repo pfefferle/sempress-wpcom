@@ -10,23 +10,9 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"
-
-#: searchform.php:11
-msgid "Search &hellip;"
-msgstr ""
 
 #: searchform.php:10 searchform.php:12
 msgid "Search"
@@ -51,10 +37,6 @@ msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här
 #: no-results.php:14
 msgid "Nothing Found"
 msgstr "Inget funnet"
-
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
 
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
@@ -123,10 +105,6 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Posta en kommentar\"
 msgid "Next &rarr;"
 msgstr "Nästa &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; Föregående"
@@ -164,10 +142,6 @@ msgid "% Comments"
 msgstr "% kommentarer"
 
 #: content.php:62
-msgid "1 Comment"
-msgstr ""
-
-#: content.php:62
 msgid "Leave a comment"
 msgstr "Lämna en kommentar"
 
@@ -198,10 +172,6 @@ msgstr "Det här inlägget postades i %1$s och har märkts med etiketterna %2$s.
 #: content-single.php:41
 msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänk</a>."
-
-#: content-single.php:39
-msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50

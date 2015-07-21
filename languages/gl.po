@@ -10,16 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"
@@ -123,10 +113,6 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Envía un comentario
 msgid "Next &rarr;"
 msgstr "Seguinte &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; Anterior"
@@ -155,17 +141,9 @@ msgstr "Tema: %1$s por %2$s."
 msgid "Proudly powered by %s"
 msgstr "Fornecido con orgullo por %s"
 
-#: footer.php:18
-msgid "A semantic Personal Publishing Platform"
-msgstr ""
-
 #: content.php:62
 msgid "% Comments"
 msgstr "% Comentarios"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"
@@ -198,10 +176,6 @@ msgstr "Estas entrada foi publicada en %1$s coas etiquetas %2$s. <a href=\"%3$s\
 #: content-single.php:41
 msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Marcar a <a href=\"%3$s\" title=\"Ligazón permanente a %4$s\" rel=\"bookmark\">ligazón permanente</a>."
-
-#: content-single.php:39
-msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
@@ -276,10 +250,6 @@ msgstr "Proba a buscar nos arquivos mensuais. %1$s"
 #: 404.php:27
 msgid "Most Used Categories"
 msgstr "Categorías máis utilizadas"
-
-#: 404.php:20
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr ""
 
 #: 404.php:16
 msgid "Oops! That page can&rsquo;t be found."

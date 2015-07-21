@@ -10,11 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
@@ -162,10 +157,6 @@ msgstr "Une plate-forme sémantique de publication personnelle"
 #: content.php:62
 msgid "% Comments"
 msgstr "% Commentaires"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"

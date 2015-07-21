@@ -10,11 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
@@ -122,10 +117,6 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Hozzászólás\">Hoz
 #: image.php:40
 msgid "Next &rarr;"
 msgstr "Következő &rarr;"
-
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
 
 #: image.php:39
 msgid "&larr; Previous"

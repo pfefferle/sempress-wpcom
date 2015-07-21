@@ -15,11 +15,6 @@ msgstr ""
 msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 msgstr "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
 
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"

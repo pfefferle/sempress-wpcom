@@ -52,10 +52,6 @@ msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku ĉi tie
 msgid "Nothing Found"
 msgstr "Nenio estis trovita"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Vidu ĉiujn afiŝojn de %s"
@@ -111,21 +107,9 @@ msgstr "Komentoj kaj retroligoj estas malpermesataj."
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
 msgstr "Retroligilojn oni fermis, sed vi rajtas <a class=\"comment-link\" href=\"#respond\" title=\"Aldonu komenton\">aldoni komenton</a>. "
 
-#: image.php:102
-msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
-
-#: image.php:100
-msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
-
 #: image.php:40
 msgid "Next &rarr;"
 msgstr "Sekva &rarr;"
-
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
 
 #: image.php:39
 msgid "&larr; Previous"
@@ -198,10 +182,6 @@ msgstr "Tiu ĉi enskribo estis afiŝita en %1$s kaj ricevis la etikedo(j)n %2$s.
 #: content-single.php:41
 msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Legosigni la <a href=\"%3$s\" title=\"Fiksligilo al %4$s\" rel=\"bookmark\">fiksligilon</a>."
-
-#: content-single.php:39
-msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
-msgstr ""
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
@@ -276,10 +256,6 @@ msgstr "Provu rigardi en la monataj arkivoj: %1$s"
 #: 404.php:27
 msgid "Most Used Categories"
 msgstr "Plej uzataj kategorioj"
-
-#: 404.php:20
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr ""
 
 #: 404.php:16
 msgid "Oops! That page can&rsquo;t be found."

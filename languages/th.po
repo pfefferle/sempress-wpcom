@@ -10,16 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr ""
-
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/sempress/page-full-width.php
-msgid "Full-Width Page"
-msgstr ""
-
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"
@@ -51,10 +41,6 @@ msgstr "พร้อมที่จะเผยแพร่เรื่องแ
 #: no-results.php:14
 msgid "Nothing Found"
 msgstr "ไม่พบสิ่งใด"
-
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
 
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
@@ -123,10 +109,6 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">เ
 msgid "Next &rarr;"
 msgstr "ต่อไป &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr ""
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; ก่อนหน้า"
@@ -147,10 +129,6 @@ msgstr "ด้านข้าง"
 msgid "Primary Menu"
 msgstr "เมนูหลัก"
 
-#: footer.php:19
-msgid "Theme: %1$s by %2$s."
-msgstr ""
-
 #: footer.php:18
 msgid "Proudly powered by %s"
 msgstr "ภูมิใจนำเสนอโดย %s"
@@ -162,10 +140,6 @@ msgstr "แพลตฟอร์มสำหรับเผยแพร่บท
 #: content.php:62
 msgid "% Comments"
 msgstr "% ความเห็น"
-
-#: content.php:62
-msgid "1 Comment"
-msgstr ""
 
 #: content.php:62
 msgid "Leave a comment"
