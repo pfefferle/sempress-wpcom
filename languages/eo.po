@@ -10,15 +10,15 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr "SemPress estas adaptiĝanta etoso perfekta por personaj blogoj. Refarita por WordPress.com."
-
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
 msgstr "Plenlarĝa paĝo"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sempress/style.css
+msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
+msgstr "SemPress estas adaptiĝanta etoso perfekta por personaj blogoj. Refarita por WordPress.com."
 
 #: sidebar.php:25
 msgid "Meta"
