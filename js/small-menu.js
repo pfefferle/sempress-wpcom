@@ -36,9 +36,9 @@ jQuery( document ).ready( function( $ ) {
 			}
 		}, 200 );
 	} );
-	
+
 	var container = $( '.site-navigation' );
-	
+
 	// Fix child menus for touch devices.
 	function fixMenuTouchTaps( container ) {
 		var touchStartFn,
