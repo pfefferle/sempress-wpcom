@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-05 14:15:04+0000\n"
+"PO-Revision-Date: 2016-03-25 07:41:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -259,3 +259,7 @@ msgstr "अधिकतर उपयोग किये गये श्रे�
 #: 404.php:20
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "ऐसा लगता है कि कुछ भी नहीं इस स्थान पर पाया गया। शायद नीचे दिए गए लिंक्स या खोज से एक कोशिश करें?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "उफ़! वह पृष्ठ नहीं पाया जा सकता है।"
