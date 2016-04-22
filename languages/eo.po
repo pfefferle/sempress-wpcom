@@ -1,0 +1,262 @@
+# Translation of SemPress in Esperanto
+# This file is distributed under the same license as the SemPress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-01-09 10:37:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: SemPress\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sempress/page-full-width.php
+msgid "Full-Width Page"
+msgstr "Plenlarĝa paĝo"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sempress/style.css
+msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
+msgstr "SemPress estas adaptiĝanta etoso perfekta por personaj blogoj. Refarita por WordPress.com."
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Metadatumoj"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Serĉi &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Serĉi"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Serĉrezultoj por: %s"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ŝajnas, ke ni ne povas trovi tion. Eble serĉo helpos."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bedaŭrinde, nenio kongruis kun viaj serĉaj kriterioj. Bonvolu provi denove, uzante malsamajn vortojn."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku ĉi tie</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: inc/template-tags.php:132
+msgid "View all posts by %s"
+msgstr "Vidu ĉiujn afiŝojn de %s"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s je %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Via komento atendas kontroladon"
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">diras:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Resondado:"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pli novaj afiŝoj <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Pli malnovaj afiŝoj"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/extras.php:75
+msgid "Page %s"
+msgstr "Paĝo %s"
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Komentoj kaj retroligoj estas malpermesataj."
+
+#: image.php:104
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Retroligilojn oni fermis, sed vi rajtas <a class=\"comment-link\" href=\"#respond\" title=\"Aldonu komenton\">aldoni komenton</a>. "
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Sekva &rarr;"
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Antaŭa"
+
+#: header.php:36
+msgid "Skip to content"
+msgstr "Iri rekte al enhavo"
+
+#: header.php:35
+msgid "Menu"
+msgstr "Menuo"
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "Flankpanelo"
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr "Ĉefa menuo"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Etoso: %1$s de %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Fiere kreata de %s"
+
+#: footer.php:18
+msgid "A semantic Personal Publishing Platform"
+msgstr "Semantika ilo por persona publikigado"
+
+#: content.php:62
+msgid "% Comments"
+msgstr "% Komentoj"
+
+#: content.php:62
+msgid "1 Comment"
+msgstr "1 komento"
+
+#: content.php:62
+msgid "Leave a comment"
+msgstr "Komenti"
+
+#: content.php:55
+msgid "Tagged %1$s"
+msgstr "Etikedita per %1$s"
+
+#: content.php:44
+msgid "Posted in %1$s"
+msgstr "Afiŝita en %1$s"
+
+#: content.php:31
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Legi plu <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:27
+msgid "Permalink to %s"
+msgstr "Fiksligilo al %s"
+
+#: content-single.php:49
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Tiu ĉi enskribo estis afiŝita en %1$s. Legosigni la <a href=\"%3$s\" title=\"Fiksligilo al %4$s\" rel=\"bookmark\">fiksligilon</a>."
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Tiu ĉi enskribo estis afiŝita en %1$s kaj ricevis la etikedo(j)n %2$s. Legosigni la <a href=\"%3$s\" title=\"Fiksligilo al %4$s\" rel=\"bookmark\">fiksligilon</a>."
+
+#: content-single.php:41
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Legosigni la <a href=\"%3$s\" title=\"Fiksligilo al %4$s\" rel=\"bookmark\">fiksligilon</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:31 content-single.php:34 content.php:40 content.php:50
+msgid ", "
+msgstr ", "
+
+#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Redakti"
+
+#: content-page.php:17 content-single.php:25 content.php:32 image.php:94
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Pli novaj komentoj &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Pli malnovaj komentoj"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigado tra komentoj"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Unu penso pri &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensoj pri &ldquo;%2$s&rdquo;"
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr "Arkivoj"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Jaraj arkivoj: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Monataj arkivoj: %s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Tagaj arkivoj: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Aŭtoraj arkivoj: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Arkivoj de etikedoj: %s"
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Kategoriaj arkivoj: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provu rigardi en la monataj arkivoj: %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Plej uzataj kategorioj"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ne eblas trovi tiun paĝon."
