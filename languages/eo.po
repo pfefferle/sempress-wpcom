@@ -1,5 +1,5 @@
-# Translation of SemPress in Esperanto
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Esperanto
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-01-09 10:37:53+0000\n"
@@ -7,18 +7,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
-
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr "SemPress estas adaptiĝanta etoso perfekta por personaj blogoj. Refarita por WordPress.com."
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: eo\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
 msgstr "Plenlarĝa paĝo"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sempress/style.css
+msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
+msgstr "SemPress estas adaptiĝanta etoso perfekta por personaj blogoj. Refarita por WordPress.com."
 
 #: sidebar.php:25
 msgid "Meta"

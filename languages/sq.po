@@ -1,5 +1,5 @@
-# Translation of SemPress in Albanian
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Albanian
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-11-03 08:12:21+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: sq_AL\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
@@ -47,13 +48,13 @@ msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani 
 msgid "Nothing Found"
 msgstr "Nuk u Gjet Gjë"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "Postuar te <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> nga <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Shihni tërë postimet nga %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Postuar te <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> nga <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
