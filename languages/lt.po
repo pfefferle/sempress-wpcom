@@ -1,0 +1,271 @@
+# Translation of WordPress.com - Themes - SemPress in Lithuanian
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-08-11 12:05:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.2.0-alpha\n"
+"Language: lt\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sempress/page-full-width.php
+msgid "Full-Width Page"
+msgstr "Pilno pločio puslapis"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Ieškoti &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Paieška"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai skirti: %s"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Atrodo mes negalime rasti to ko jūs ieškote. Gal paieška padės."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį. "
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę išleisti savo pirmą įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Nieko nerasta"
+
+#: inc/template-tags.php:132
+msgid "View all posts by %s"
+msgstr "Peržiūrėti visus %s įrašus"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Komentaras laukia administratoriaus patvirtinimo."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">sako:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Atgalinė nuoroda:"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Senesni įrašai"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Įrašo naršymas"
+
+#: inc/extras.php:75
+msgid "Page %s"
+msgstr "Puslapis %s"
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Šiuo metu tiek komentarai, tiek atsiliepimai išjungti."
+
+#: image.php:104
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Atgalinės nuorodos išjungtos, bet galite <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">palikti komentarą</a>."
+
+#: image.php:102
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentarai išjungti, bet galite palikti atgalinę nuorodą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Atgalinė URL</a>."
+
+#: image.php:100
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Įrašykite komentarą</a> arba palikite atsiliepimą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Sekimo URL</a>."
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Sekantis &amp;rarr;"
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Ankstesnis"
+
+#: header.php:36
+msgid "Skip to content"
+msgstr "Praleisti ir eiti į turinį"
+
+#: header.php:35
+msgid "Menu"
+msgstr "Meniu"
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "Valdiklių sritis"
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s sukūrė %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Sistema: %s"
+
+#: content.php:62
+msgid "% Comments"
+msgstr "% Komentaras"
+
+#: content.php:62
+msgid "1 Comment"
+msgstr "Komentarų: 1"
+
+#: content.php:62
+msgid "Leave a comment"
+msgstr "Parašykite komentarą"
+
+#: content.php:55
+msgid "Tagged %1$s"
+msgstr "Pažymėta %1$s"
+
+#: content.php:44
+msgid "Posted in %1$s"
+msgstr "Paskelbta %1$s"
+
+#: content.php:31
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Skaityti toliau <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:27
+msgid "Permalink to %s"
+msgstr "Nuolatinė nuoroda į %s"
+
+#: content-single.php:49
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Šis įrašas paskelbtas kategorijoje %1$s. Išsaugokite <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">jo nuorodą</a>."
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Šis įrašas paskelbtas kategorijoje %1$s ir priskirtas tokioms žymoms: %2$s. Išsaugokite <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">jo nuorodą</a>."
+
+#: content-single.php:41
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Išsaugokite <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">nuorodą</a>."
+
+#: content-single.php:39
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Šis įrašas priskirtas tokioms žymoms: %2$s. Išsaugokite <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">jo nuorodą</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:31 content-single.php:34 content.php:40 content.php:50
+msgid ", "
+msgstr ", "
+
+#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: content-page.php:17 content-single.php:25 content.php:32 image.php:94
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentavimo galimybė išjungta."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Senesni komentarai"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Komentaro naršymas"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Vienas komentaras &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarai &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentarų &ldquo;%2$s&rdquo;"
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr "Archyvai"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Metų archyvai: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Mėnesio archyvas: %s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Dienos archyvai: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Autorių archyvai: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Žymių archyvai: %s"
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Kategorijų archyvai: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Pabandykite pažiūrėti mėnesio archyve. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Populiariausios kategorijos"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Nieko nerasta. Galbūt pabandykite vieną iš nuorodų žemiau arba paiešką? "
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Deja, toks puslapis nerastas. "
