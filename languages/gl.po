@@ -1,14 +1,20 @@
-# Translation of SemPress in Galician
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Galician
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-11-17 21:08:17+0000\n"
+"PO-Revision-Date: 2016-08-28 13:04:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.2.0-alpha\n"
+"Language: gl_ES\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/sempress/page-full-width.php
+msgid "Full-Width Page"
+msgstr "Páxina de largo completo"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -42,13 +48,13 @@ msgstr "Preparado/a para publicar o teu primeiro artigo? <a href=\"%1$s\">Comeza
 msgid "Nothing Found"
 msgstr "Non se atopou nada"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "Publicado o <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Ver todos os artigos de %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Publicado o <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -254,6 +260,10 @@ msgstr "Proba a buscar nos arquivos mensuais. %1$s"
 #: 404.php:27
 msgid "Most Used Categories"
 msgstr "Categorías máis utilizadas"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Semella que non se atopa nada por aquí. Queres probar con algún dos enlaces de embaixo ou cunha busca?"
 
 #: 404.php:16
 msgid "Oops! That page can&rsquo;t be found."
