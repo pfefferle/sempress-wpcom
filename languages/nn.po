@@ -1,0 +1,249 @@
+# Translation of WordPress.com - Themes - SemPress in Norwegian (Nynorsk)
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-24 15:32:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: nn_NO\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Søk &hellip;"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Søk"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Søkjeresultat for: %s"
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklagar, vi fann ingenting som passa med søket ditt. Prøv igjen med andre søkeord."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar for å publisere det fyrste innlegget ditt? <a href=\"%1$s\">Kom i gang her</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Fann ingenting"
+
+#: inc/template-tags.php:132
+msgid "View all posts by %s"
+msgstr "Vis alle innlegg av %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Posta <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> av <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s ved %2$s "
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Kommentaren din ventar på å verte moderert."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">seier:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Tilbakeping:"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare innlegg <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Innleggsnavigasjon"
+
+#: inc/extras.php:75
+msgid "Page %s"
+msgstr "Side %s"
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Både kommentarar og tilbakesporingar er for tida avslutta."
+
+#: image.php:104
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Tilbakesporingar er avslutta, men du kan <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">skrive ein kommentar</a>. "
+
+#: image.php:102
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Kommentarar er avslutta, men du kan leggje att ei tilbakesporing: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Tilbakesporings-URL</a>."
+
+#: image.php:100
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Skriv ein kommentar</a> eller legg att ei tilbakesporing: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Tilbakesporings-URL</a>. "
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Neste &rarr; "
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Førre"
+
+#: header.php:36
+msgid "Skip to content"
+msgstr "Gå til innhald"
+
+#: header.php:35
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "Sidestolpe"
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr "Primærmeny"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s av %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Stolt driven av %s"
+
+#: content.php:62
+msgid "% Comments"
+msgstr "% kommentarar"
+
+#: content.php:62
+msgid "Leave a comment"
+msgstr "Kommenter innlegget"
+
+#: content.php:55
+msgid "Tagged %1$s"
+msgstr "Merkte %1$s"
+
+#: content.php:44
+msgid "Posted in %1$s"
+msgstr "Posta under %1$s"
+
+#: content.php:31
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Les meir <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:27
+msgid "Permalink to %s"
+msgstr "Direktelenkje til %s"
+
+#: content-single.php:49
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dette innlegget vart posta under %1$s. Bokmerk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalenkja</a>."
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dette innlegget vart posta under %1$s og merkt %2$s. Bokmerk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalenkja</a>."
+
+#: content-single.php:41
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Bokmerk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">direktelenkja</a>."
+
+#: content-single.php:39
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dette innlegget er merkt %2$s. Bokmerk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalenkja</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:31 content-single.php:34 content.php:40 content.php:50
+msgid ", "
+msgstr ", "
+
+#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Rediger"
+
+#: content-page.php:17 content-single.php:25 content.php:32 image.php:94
+msgid "Pages:"
+msgstr "Sider:"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentarfeltet er stengt."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarar &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarar"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Kommentarnavigasjon"
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr "Arkiv"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Årlege arkiv: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Månadleg arkiv: %s "
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Dagarkiv: %s "
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Forfattararkiv: %s "
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Stikkordarkiv: %s "
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Mest brukte kategoriar"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det ser ut til at ingenting vart funne her. Kanskje du kan prøve ei av lenkene nedanfor eller eit søk?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Kan ikkje finne den sida."
