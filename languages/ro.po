@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-28 23:22:25+0000\n"
+"PO-Revision-Date: 2016-11-29 23:40:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,10 @@ msgstr "SemPress este o temă responsivă perfectă pentru bloguri personale. Re
 #: sidebar.php:25
 msgid "Meta"
 msgstr "Meta"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Caută &hellip;"
 
 #: searchform.php:10 searchform.php:12
 msgid "Search"
@@ -111,6 +115,10 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Publică un comentar
 msgid "Next &rarr;"
 msgstr "Mai departe &rarr;"
 
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
 #: header.php:36
 msgid "Skip to content"
 msgstr "Sări la conţinut"
@@ -150,6 +158,14 @@ msgstr "Un comentariu"
 #: content.php:62
 msgid "Leave a comment"
 msgstr "Scrie un comentariu"
+
+#: content.php:55
+msgid "Tagged %1$s"
+msgstr "Etichetat %1$s"
+
+#: content.php:44
+msgid "Posted in %1$s"
+msgstr "Publicat în %1$s"
 
 #: content.php:31
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
