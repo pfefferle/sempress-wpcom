@@ -1,0 +1,254 @@
+# Translation of WordPress.com - Themes - SemPress in Serbian
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-18 19:21:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: sr_RS\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Мета"
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr "Претрага"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Резултати претраживања за: %s"
+
+#: no-results.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Изгледа да не можемо да пронађемо оно што сте тражили. Можда ће претраживање или једна од веза испод помоћи."
+
+#: no-results.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Нажалост, ваша претрага није донела резултате. Молимо вас, покушајте поново са другачијим параметрима."
+
+#: no-results.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Спремни сте да објавите свој први чланак? <a href=\"%1$s\">Започните овде</a>."
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Ништа није пронађено"
+
+#: inc/template-tags.php:132
+msgid "View all posts by %s"
+msgstr "Види све чланке од %s"
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s у %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар чека преглед."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">каже:</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Повратни пинг: "
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новији чланци <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старији чланци"
+
+#: inc/template-tags.php:44
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:43
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Кретање чланака"
+
+#: inc/extras.php:75
+msgid "Page %s"
+msgstr "Страна %s"
+
+#: image.php:106
+msgid "Both comments and trackbacks are currently closed."
+msgstr "И коментари и повратне везе тренутно нису дозвољени."
+
+#: image.php:104
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Није дозвољено објављивање повратне везе али можете <a class=\"comment-link\" href=\"#respond\" title=\"Објави коментар\">објавити коментар</a>."
+
+#: image.php:102
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Коментари нису дозвољени али можете оставити повратну везу: <a class=\"trackback-link\" href=\"%s\" title=\"URL повратне везе за ваш чланак\" rel=\"trackback\">URL повратне везе</a>."
+
+#: image.php:100
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Објавите коментар\">Објавите коментар</a> или оставите повратну везу: <a class=\"trackback-link\" href=\"%s\" title=\"URL повратне везе за ваш чланак\" rel=\"trackback\">URL повратне везе</a>."
+
+#: image.php:40
+msgid "Next &rarr;"
+msgstr "Следеће &rarr;"
+
+#: image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Претходно"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Објављено <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> у <a href=\"%3$s\" title=\"Линк за пун приказ слике\">%4$s &times; %5$s</a> у <a href=\"%6$s\" title=\"Повратак на %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: header.php:36
+msgid "Skip to content"
+msgstr "Скочи на садржај"
+
+#: header.php:35
+msgid "Menu"
+msgstr "Изборник"
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr "Бочна трака"
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr "Примарни изборник"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s од %2$s."
+
+#: footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Са поносом покреће %s"
+
+#: footer.php:18
+msgid "A semantic Personal Publishing Platform"
+msgstr "Семантичка платформа за лично издаваштво"
+
+#: content.php:62
+msgid "% Comments"
+msgstr "% коментара"
+
+#: content.php:62
+msgid "Leave a comment"
+msgstr "Оставите коментар"
+
+#: content.php:31
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Наставите са читањем <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:27
+msgid "Permalink to %s"
+msgstr "Стална веза ка %s"
+
+#: content-single.php:49
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Овај унос је објављен под %1$s. Забележите <a href=\"%3$s\" title=\"Стална веза ка %4$s\" rel=\"bookmark\">сталну везу</a>."
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Овај унос је објављен под %1$s и означен са %2$s. Забележите <a href=\"%3$s\" title=\"Стална веза ка %4$s\" rel=\"bookmark\">сталну везу</a>."
+
+#: content-single.php:41
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Забележите <a href=\"%3$s\" title=\"Стална веза ка %4$s\" rel=\"bookmark\">сталну везу</a>."
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:31 content-single.php:34 content.php:40 content.php:50
+msgid ", "
+msgstr ", "
+
+#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
+msgid "Edit"
+msgstr "Уреди"
+
+#: content-page.php:17 content-single.php:25 content.php:32 image.php:94
+msgid "Pages:"
+msgstr "Стране:"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Затворено за коментаре."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Новији коментари &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Старији коментари"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Кретање коментара"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Једно мишљење на &#0132;%2$s&#0147;"
+msgstr[1] "%1$s мишљења на &#0132;%2$s&#0147;"
+msgstr[2] "%1$s мишљења на &#0132;%2$s&#0147;"
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr "Архиве"
+
+#: archive.php:46
+msgid "Yearly Archives: %s"
+msgstr "Годишње архиве: %s"
+
+#: archive.php:43
+msgid "Monthly Archives: %s"
+msgstr "Месечне архиве: %s"
+
+#: archive.php:40
+msgid "Daily Archives: %s"
+msgstr "Дневне архиве: %s"
+
+#: archive.php:32
+msgid "Author Archives: %s"
+msgstr "Архиве аутора: %s"
+
+#: archive.php:25
+msgid "Tag Archives: %s"
+msgstr "Архиве ознака: %s"
+
+#: archive.php:22
+msgid "Category Archives: %s"
+msgstr "Архиве категорија: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Покушајте са гледањем месечних архива. %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Најкоришћеније категорије"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ништа није нађено на овој локацији. Можда да покушате да пронађете тражени садржај међу доњим линковима или путем претраге?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Та страница није пронађена."
