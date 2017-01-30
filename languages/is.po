@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-28 12:11:14+0000\n"
+"PO-Revision-Date: 2017-01-29 22:48:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,6 +51,10 @@ msgstr "Ekkert fannst"
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Skoða allar færslur eftir %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Birt þann <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> af <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -186,6 +190,10 @@ msgstr "Þessi færsla var birt þann %1$s og merkt %2$s. Bókamerkið <a href=\
 #: content-single.php:41
 msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Vista bókamerki fyrir <a href=\"%3$s\" title=\"Varanleg slóð á %4$s\" rel=\"bookmark\">varanlega slóð</a>."
+
+#: content-single.php:39
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Þessi færsla var merkt %2$s. Settu bókamerki á <a href=\"%3$s\" title=\"Vefslóð á %4$s\" rel=\"bookmark\">vefslóðina</a>."
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50
