@@ -35,7 +35,7 @@
 
 			if ( ! sempress_categorized_blog() ) {
 				// This blog only has 1 category so we just need to worry about tags in the meta text
-				if ( '' != $tag_list ) {
+				if ( '' != $tag_list && ! is_wp_error( $tag_list ) ) {
 					$meta_text = __( 'This entry was tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'sempress' );
 				} else {
 					$meta_text = __( 'Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'sempress' );
@@ -43,13 +43,18 @@
 
 			} else {
 				// But this blog has loads of categories so we should probably display them here
-				if ( '' != $tag_list ) {
+				if ( '' != $tag_list && ! is_wp_error( $tag_list ) ) {
 					$meta_text = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'sempress' );
 				} else {
 					$meta_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'sempress' );
 				}
 
 			} // end check for categories on this blog
+
+			// If $tag_list contains WP Error, empty before passing to printf()
+			if ( is_wp_error( $tag_list ) ) {
+				$tag_list = '';
+			}
 
 			printf(
 				$meta_text,

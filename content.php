@@ -48,7 +48,7 @@
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$tags_list = get_the_tag_list( '', __( ', ', 'sempress' ) );
-				if ( $tags_list ) :
+				if ( $tags_list && ! is_wp_error( $tag_list ) ) :
 			?>
 			<span class="sep"> | </span>
 			<span class="tags-links">
