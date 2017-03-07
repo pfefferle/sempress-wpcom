@@ -1,14 +1,15 @@
-# Translation of SemPress in Finnish
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Finnish
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-19 05:51:02+0000\n"
+"PO-Revision-Date: 2017-03-06 19:27:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -168,6 +169,18 @@ msgstr "Lue loppuun <span class=\"meta-nav\">&rarr;</span>"
 #: content.php:27
 msgid "Permalink to %s"
 msgstr "Kestolinkki: %s"
+
+#: content-single.php:49
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Kategoria(t): %1$s. Lisää <a href=\"%3$s\" title=\"Kestolinkki artikkeliin %4$s\" rel=\"bookmark\">kestolinkki</a> kirjanmerkkeihisi."
+
+#: content-single.php:47
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Kategoria(t): %1$s Avainsana(t): %2$s. Lisää <a href=\"%3$s\" title=\"Kestolinkki artikkeliin %4$s\" rel=\"bookmark\">kestolinkki</a> kirjanmerkkeihisi."
+
+#: content-single.php:41
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Lisää <a href=\"%3$s\" title=\"Kestolinkki julkaisuun %4$s\" rel=\"bookmark\">kestolinkki</a> kirjanmerkkeihisi."
 
 #. translators: used between list items, there is a space after the comma
 #: content-single.php:31 content-single.php:34 content.php:40 content.php:50

@@ -1,14 +1,15 @@
-# Translation of SemPress in Irish
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Irish
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-02 04:10:48+0000\n"
+"PO-Revision-Date: 2017-03-06 19:35:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ga_IE\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -42,13 +43,13 @@ msgstr "bhFuil tú réidh le halt a fhoilsiú? <a href=\"%1$s\">Féadfaidh tú t
 msgid "Nothing Found"
 msgstr "Gan Toradh"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "Foilsiú: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> ag <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Gach a bhfuil foilsithe ag %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Foilsiú: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> ag <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -105,13 +106,13 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Scríobh freagra\">S
 msgid "Next &rarr;"
 msgstr "Ar aghaidh &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr "Foilsithe <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> ag <a href=\"%3$s\" title=\"Nasc leis an íomhá iomlán\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Fill ar %7$s\" rel=\"gallery\">%8$s</a>"
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; Chun Deiridh"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Foilsithe <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> ag <a href=\"%3$s\" title=\"Nasc leis an íomhá iomlán\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Fill ar %7$s\" rel=\"gallery\">%8$s</a>"
 
 #: header.php:36
 msgid "Skip to content"
@@ -140,6 +141,10 @@ msgstr "Le cumhacht %s"
 #: content.php:62
 msgid "% Comments"
 msgstr "Freagraí: %"
+
+#: content.php:62
+msgid "1 Comment"
+msgstr "1 Fhreagra amháin"
 
 #: content.php:62
 msgid "Leave a comment"
