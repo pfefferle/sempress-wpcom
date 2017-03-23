@@ -1,14 +1,35 @@
-# Translation of SemPress in Azerbaijani
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Azerbaijani
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-06-25 07:11:52+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "Kənarlıq Rəngi"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "Sayt Açıqlaması"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "Loqo"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "Arxa fon"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/sempress/style.css
@@ -47,13 +68,13 @@ msgstr "İlk yazınızı dərc etməyə hazırsınızmı? <a href=\"%1$s\">Burad
 msgid "Nothing Found"
 msgstr "Tapılmadı"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> tarixində <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a> tərəfindən göndərildi</span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "%s tərəfindən yazılmış bütün yazılara bax"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> tarixində <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a> tərəfindən göndərildi</span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -118,13 +139,13 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Bir
 msgid "Next &rarr;"
 msgstr "Sonrakı &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> tarixində <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> üzərində <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a> içində dərc edildi."
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; Öncəki"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> tarixində <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> üzərində <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a> içində dərc edildi."
 
 #: header.php:36
 msgid "Skip to content"
@@ -203,7 +224,7 @@ msgstr "Bu yazı %2$s ilə etiketləndi. <a href=\"%3$s\" title=\"%4$s üçün d
 msgid ", "
 msgstr ","
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "Redaktə et"

@@ -1,14 +1,35 @@
-# Translation of SemPress in Korean
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Korean
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-02 04:10:48+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "경계선 색상"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "링크"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "사이트 설명"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "로고"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "배경"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -186,7 +207,7 @@ msgstr "이 엔트리는 %2$s 태그가 지정되었습니다. <a href=\"%3$s\" 
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "편집"

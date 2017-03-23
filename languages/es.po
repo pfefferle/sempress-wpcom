@@ -1,14 +1,35 @@
-# Translation of SemPress in Spanish (Spain)
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Spanish (Spain)
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-02 16:54:15+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "Color de borde"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "Enlaces"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "Descripcion del Sitio"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "Fondo"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
@@ -47,13 +68,13 @@ msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza a
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "Publicado el <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "Ver todas las entradas de %s"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Publicado el <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> por <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -118,13 +139,13 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Publica un comentari
 msgid "Next &rarr;"
 msgstr "Siguiente &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> en <a href=\"%3$s\" title=\"Enlace a la imagen en tamaño real\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Regresar a %7$s\" rel=\"galería\">%8$s</a>"
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; Anterior"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> en <a href=\"%3$s\" title=\"Enlace a la imagen en tamaño real\">%4$s &times; %5$s</a> en <a href=\"%6$s\" title=\"Regresar a %7$s\" rel=\"galería\">%8$s</a>"
 
 #: header.php:36
 msgid "Skip to content"
@@ -203,7 +224,7 @@ msgstr "Esta entrada fue etiquetada %2$s. Añadir a marcadores el <a href=\"%3$s
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "Editar"

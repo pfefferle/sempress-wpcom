@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-08 16:04:01+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,22 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: pl\n"
 "Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "Linki"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "Opis Strony"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "Tło"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
@@ -192,7 +208,7 @@ msgstr "Dodaj zakładkę do <a href=\"%3$s\" title=\"Bezpośredni odnośnik do %
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "Edytuj"

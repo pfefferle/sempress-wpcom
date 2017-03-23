@@ -1,14 +1,27 @@
-# Translation of SemPress in Hindi
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Hindi
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-15 12:30:52+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: hi_IN\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "कड़ियाँ"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "लोगो"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "पृष्ठभूमि"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
@@ -195,7 +208,7 @@ msgstr "इस प्रविष्टि %2$s टैग किया गया
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "सम्पादन"

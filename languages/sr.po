@@ -2,14 +2,30 @@
 # This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-18 19:21:22+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sr_RS\n"
 "Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "Везe"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "Опис веб места"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "Лого"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "Позадина"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -175,7 +191,7 @@ msgstr "Забележите <a href=\"%3$s\" title=\"Стална веза ка
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "Уреди"

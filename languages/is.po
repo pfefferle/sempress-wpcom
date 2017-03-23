@@ -2,14 +2,34 @@
 # This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-29 22:48:55+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
-"X-Generator: GlotPress/2.3.0-beta.1\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: is\n"
 "Project-Id-Version: WordPress.com - Themes - SemPress\n"
+
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "Litur ramma"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "Tenglar"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "Lýsing vefs"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "Lógó"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "Bakgrunnur"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
@@ -200,7 +220,7 @@ msgstr "Þessi færsla var merkt %2$s. Settu bókamerki á <a href=\"%3$s\" titl
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "Breyta"

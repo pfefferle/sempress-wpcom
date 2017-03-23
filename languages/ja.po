@@ -1,24 +1,45 @@
-# Translation of SemPress in Japanese
-# This file is distributed under the same license as the SemPress package.
+# Translation of WordPress.com - Themes - SemPress in Japanese
+# This file is distributed under the same license as the WordPress.com - Themes - SemPress package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-02 09:51:40+0000\n"
+"PO-Revision-Date: 2017-03-23 08:50:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: SemPress\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: WordPress.com - Themes - SemPress\n"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/sempress/style.css
-msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
-msgstr "SemPressは 個人ブログにぴったりなレスポンシブデザインテーマです。 WordPress.com 向けに改造されています。"
+#: inc/wpcom-colors.php:78
+msgid "Border Color"
+msgstr "ボーダー色"
+
+#: inc/wpcom-colors.php:72
+msgid "Links"
+msgstr "リンク"
+
+#: inc/wpcom-colors.php:64
+msgid "Site Description"
+msgstr "サイトの説明"
+
+#: inc/wpcom-colors.php:56
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/wpcom-colors.php:48
+msgid "Background"
+msgstr "背景"
 
 #. Template Name of the plugin/theme
 #: wp-content/themes/pub/sempress/page-full-width.php
 msgid "Full-Width Page"
 msgstr "全幅ページ"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/sempress/style.css
+msgid "SemPress is a respsonsive theme perfect for personal blogs. Rebuilt for WordPress.com."
+msgstr "SemPressは 個人ブログにぴったりなレスポンシブデザインテーマです。 WordPress.com 向けに改造されています。"
 
 #: sidebar.php:25
 msgid "Meta"
@@ -52,13 +73,13 @@ msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">
 msgid "Nothing Found"
 msgstr "見つかりません"
 
-#: inc/template-tags.php:126
-msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "投稿日: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> 投稿者: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
 #: inc/template-tags.php:132
 msgid "View all posts by %s"
 msgstr "%s のすべての投稿を表示"
+
+#: inc/template-tags.php:126
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "投稿日: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> 投稿者: <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #. translators: 1: date, 2: time
 #: inc/template-tags.php:99
@@ -123,13 +144,13 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"コメントを投�
 msgid "Next &rarr;"
 msgstr "次へ &rarr;"
 
-#: image.php:24
-msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
-msgstr "投稿日: <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> @ <a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%8$s</a>"
-
 #: image.php:39
 msgid "&larr; Previous"
 msgstr "&larr; 前へ"
+
+#: image.php:24
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "投稿日: <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> @ <a href=\"%3$s\" title=\"フルサイズ画像へのリンク\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"%7$s へ戻る\" rel=\"gallery\">%8$s</a>"
 
 #: header.php:36
 msgid "Skip to content"
@@ -208,7 +229,7 @@ msgstr "タグ: %2$s <a href=\"%3$s\" title=\"%4$s へのパーマリンク\" re
 msgid ", "
 msgstr ", "
 
-#: content-page.php:20 content-single.php:63 content.php:65 image.php:35
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
 #: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr "編集"
