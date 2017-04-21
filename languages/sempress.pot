@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SemPress 1.1-wpcom\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/sempress\n"
-"POT-Creation-Date: 2017-03-23 08:50:37+00:00\n"
+"POT-Creation-Date: 2017-04-21 03:30:56+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -82,12 +82,12 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: content-page.php:17 content-single.php:25 content.php:32 image.php:94
+#: content-page.php:17 content-single.php:25 content.php:32 image.php:109
 msgid "Pages:"
 msgstr ""
 
-#: content-page.php:20 content-single.php:68 content.php:65 image.php:35
-#: image.php:108 inc/template-tags.php:78 inc/template-tags.php:101
+#: content-page.php:20 content-single.php:68 content.php:65 image.php:45
+#: image.php:123 inc/template-tags.php:78 inc/template-tags.php:101
 msgid "Edit"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: image.php:24
+#: image.php:25
 msgid ""
 "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
 "\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
@@ -184,35 +184,42 @@ msgid ""
 "rel=\"gallery\">%8$s</a>"
 msgstr ""
 
-#: image.php:39
+#: image.php:36
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+"image\">%4$s &times; %5$s</a>"
+msgstr ""
+
+#: image.php:50
 msgid "&larr; Previous"
 msgstr ""
 
-#: image.php:40
+#: image.php:51
 msgid "Next &rarr;"
 msgstr ""
 
-#: image.php:100
+#: image.php:115
 msgid ""
 "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
 "comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
 "title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr ""
 
-#: image.php:102
+#: image.php:117
 msgid ""
 "Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
 "\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
 "\">Trackback URL</a>."
 msgstr ""
 
-#: image.php:104
+#: image.php:119
 msgid ""
 "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
 "\" title=\"Post a comment\">post a comment</a>."
 msgstr ""
 
-#: image.php:106
+#: image.php:121
 msgid "Both comments and trackbacks are currently closed."
 msgstr ""
 
